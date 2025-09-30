@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <PackageId>Roomzin.Sdk</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Mehdi Javani</Authors>
+    <Company>Roomzin</Company>
+    <Description>Official Roomzin SDK for .NET</Description>
+    <PackageTags>roomzin sdk api client cache</PackageTags>
+    
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/m-javani/roomzin-csharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/m-javani/roomzin-csharp.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Buffers" Version="4.5.1" />
+    <PackageReference Include="System.Threading.Channels" Version="7.0.0" />
+  </ItemGroup>
+
+  <!-- Include LICENSE and README -->
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+    <None Include="../../LICENSE" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>

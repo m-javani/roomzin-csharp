@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BCBF7201-E7EE-4E0A-83E8-92207C0D0FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roomzin.Sdk", "src\Roomzin.Sdk\Roomzin.Sdk.csproj", "{810AB113-7A89-4270-95E7-626A952AB3C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{810AB113-7A89-4270-95E7-626A952AB3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810AB113-7A89-4270-95E7-626A952AB3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810AB113-7A89-4270-95E7-626A952AB3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810AB113-7A89-4270-95E7-626A952AB3C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{810AB113-7A89-4270-95E7-626A952AB3C3} = {BCBF7201-E7EE-4E0A-83E8-92207C0D0FE4}
+	EndGlobalSection
+EndGlobal
